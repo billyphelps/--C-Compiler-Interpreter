@@ -1,0 +1,22 @@
+function fofg(function f, function g) {
+	int h(int x) { 
+		return f(g(x)); 
+	}
+	return h;
+}
+
+int square(int x){
+	return x*x;
+}
+
+int dec(int x){
+	return x-1;
+}
+
+int main(void){
+	function func = fofg(dec,square);
+
+	function func2 = fofg(func,square);
+
+	return func2(4-1);
+}

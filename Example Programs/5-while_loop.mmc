@@ -1,0 +1,22 @@
+int inc(int x){
+	return x + 1;
+}
+
+
+int diff9(int x){
+	int i = 0;
+
+	while(x<9){
+		x = inc(x);
+		i = inc(i);
+	}
+
+	return i;
+
+}
+
+
+int main(void) { 
+	return diff9(3);
+
+}

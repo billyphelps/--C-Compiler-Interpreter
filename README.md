@@ -1,2 +1,2 @@
-# --C-Compiler-Interpreter
-A final year coursework from university. The code is an interpreter and compiler for a made up language --C.
+# --C_Compiler
+A final year coursework from university. The code is an interpreter an compiler for a made up language --C.
